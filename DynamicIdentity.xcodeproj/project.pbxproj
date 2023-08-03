@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FF76344B2A7A4AB300770504 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF76344D2A7A4AB300770504 /* InfoPlist.strings */; };
+		FF9EDB022A7B99D300340250 /* secondIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9EDB012A7B99D300340250 /* secondIcon.png */; };
 		FFC72E312A79285A004778B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC72E302A79285A004778B5 /* AppDelegate.swift */; };
 		FFC72E332A79285A004778B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC72E322A79285A004778B5 /* SceneDelegate.swift */; };
 		FFC72E352A79285A004778B5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC72E342A79285A004778B5 /* HomeViewController.swift */; };
@@ -20,6 +21,7 @@
 		FF76344C2A7A4AB300770504 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FF76344E2A7A4AC100770504 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FF76344F2A7A4AC900770504 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF9EDB012A7B99D300340250 /* secondIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = secondIcon.png; sourceTree = "<group>"; };
 		FFC72E2D2A79285A004778B5 /* DynamicIdentity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicIdentity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFC72E302A79285A004778B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFC72E322A79285A004778B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF9EDB002A7B99C100340250 /* AlternateIcons */ = {
+			isa = PBXGroup;
+			children = (
+				FF9EDB012A7B99D300340250 /* secondIcon.png */,
+			);
+			path = AlternateIcons;
+			sourceTree = "<group>";
+		};
 		FFC72E242A79285A004778B5 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +70,7 @@
 		FFC72E2F2A79285A004778B5 /* DynamicIdentity */ = {
 			isa = PBXGroup;
 			children = (
+				FF9EDB002A7B99C100340250 /* AlternateIcons */,
 				FFC72E302A79285A004778B5 /* AppDelegate.swift */,
 				FFC72E322A79285A004778B5 /* SceneDelegate.swift */,
 				FFC72E342A79285A004778B5 /* HomeViewController.swift */,
@@ -133,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFC72E3D2A79285B004778B5 /* LaunchScreen.storyboard in Resources */,
+				FF9EDB022A7B99D300340250 /* secondIcon.png in Resources */,
 				FF76344B2A7A4AB300770504 /* InfoPlist.strings in Resources */,
 				FFC72E3A2A79285B004778B5 /* Assets.xcassets in Resources */,
 				FFC72E382A79285A004778B5 /* Main.storyboard in Resources */,
@@ -305,6 +317,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VGF6Q9433U;
@@ -335,6 +348,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VGF6Q9433U;
